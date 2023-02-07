@@ -1,0 +1,135 @@
+
+.contact-details{
+    min-height: 70vh;
+    width: 42%;
+    margin: auto;
+    background: whitesmoke;
+    padding-top: 6rem;
+    border: 1px solid lightgrey;
+
+}
+.contact-details label{
+    padding: 3px;
+    color: rgb(133, 125, 125);
+}
+.contact-details input{
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+    padding: 0 15px ;
+    height: 2.5rem;
+    width: 90%;
+    margin: 0.3rem 1.6rem;
+    box-shadow: 0px 5px 5px -5px black;
+}
+
+.button p{
+    width: 90%;
+    margin: auto;
+    background-color: #41C5F6;
+    color: white;
+    margin-top: 2rem;
+}
+.button p:hover{
+    background-color: rgb(23, 177, 233);
+    border: 0px solid #41C5F6;
+    color: white;
+}
+.google button{
+    border: 1px solid lightgrey;
+    padding:0 2px;
+    background-color: white;
+    box-shadow: 0px 5px 5px -5px black;
+    color: rgb(99, 96, 96);
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+    height: 3rem;
+
+}
+.facebook button{
+    border: 1px solid lightgrey;
+    padding:3px 6px;
+    background-color: #1877F2;
+    box-shadow: 0px 5px 5px -5px black;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 3rem;
+    width: 14rem;
+}
+.facebook button i{
+    padding: 8px;
+}
+.facebook button:hover{
+    background-color: rgb(52, 133, 240);
+}
+
+@media screen and (min-width:768px ) and (max-width: 997px){
+.contact-details{
+    width: 68%;
+}
+.contact-details input{
+    width: 180%;
+}
+}
+@media screen and (min-width:530px ) and  (max-width: 768px){
+    .contact-details{
+        width: 90%;
+    }
+    .contact-details input{
+        width: 88%;
+    }
+    .contact-details .button{
+        width: 96.7%;
+        margin: auto;
+    }
+    .google button{
+        padding: 2px 7px;
+        font-size: 12px;
+        width: 11rem;
+        margin-left: 8%;
+    }
+    .facebook button{
+        margin-left: 9.3%;
+    }
+    .google button i{
+        padding: 0px 0px;
+    }
+    .facebook button i{
+        padding: 1px;
+    }
+    }
+
+    @media screen and (min-width:300px ) and  (max-width: 529px){
+        .contact-details{
+            width: 90%;
+            position: relative;
+        }
+        .contact-details input{
+            width: 87%;
+            margin-left: 7%;
+        }
+        .google button{
+            padding: 2px 7px;
+            font-size: 16px;
+            width: 88%;
+            position: absolute;
+            left: 3%;
+
+        }
+        .facebook button{
+            position: absolute;
+            top: 88%;
+            left: 6%;
+            width: 88%;
+
+        }
+        .google button i{
+            padding: 0px 0px;
+        }
+        .contact-details .button{
+            width: 96%;
+            margin-left: 3%;
+        }
+        }

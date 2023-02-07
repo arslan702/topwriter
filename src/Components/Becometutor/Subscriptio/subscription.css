@@ -1,0 +1,41 @@
+.pricing{
+    background-color: #f9f7f8;
+}
+.pricing .card-body{
+    border: 0px solid rgb(177, 173, 173);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 5px 10px -5px black;
+
+}
+.pricing-header h2{
+    color: #4E94E6;
+  
+}
+.trial i{
+    margin: 0px 10px;
+    font-size: 1.2rem;
+}
+.trial h6{
+    font-size: 1.3rem;
+    padding-top: 4px;
+}
+.monthly{
+    background-color: #e4eef9;
+}
+.monthly h1{
+    color: #422525;
+}
+.monthly h3{
+    color: #54595f;
+}
+.days{
+    background-color: #4E94E6;
+}
+.days h2{
+    font-weight: 600;
+}
+.register .btn{
+    background-color: #6ec1e4;
+    color: white;
+    margin-bottom: 1.5rem;
+}

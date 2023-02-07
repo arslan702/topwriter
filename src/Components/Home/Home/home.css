@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-item img{
+height: 80vh;
+width: 40%;
+position: relative;
+background-size: cover;
+background-position: center;
+}
+/* .carousel-item::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(58, 21, 51, 0.7);
+    z-index: 2;
+} */
+/* .carousel-header{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 26%;    
+}
+.carousel-header .btn{
+    position: absolute;
+    left: 0%;    
+}
+.carousel-header h1{
+font-size: 3.9rem;
+font-weight: 700;
+} */

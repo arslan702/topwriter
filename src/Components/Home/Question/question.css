@@ -1,0 +1,21 @@
+.question{
+    margin-top: 3rem;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+    
+}
+.question h1{
+    color: #000080,#000080;
+}
+.question img{
+    height: 40px;
+}
+.question-detail h5{
+    color: #000080;
+}
+.question-detail p{
+    color: #8f8f8f;
+}
+
