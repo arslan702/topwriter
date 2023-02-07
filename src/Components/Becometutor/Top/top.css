@@ -1,0 +1,19 @@
+.top h4{
+    color: #000080;
+}
+.top{
+    
+    margin: 2rem 0;
+}
+.topcard-body img{
+    height: 30px;
+    margin: 0 8px;
+}
+.topcard-body{
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+.topcard-body span:hover{
+    color: #65ddd3;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.tutor{
+    padding-top: 10rem;
+}
+.tutor-header h4,h1{
+    color: #000080;
+}
+.btn3{
+    height: 3rem;
+    width: 15rem;
+    background-color: #e6397f;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin: 2rem 0;
+}
+.btn3:hover{
+    background-color: transparent;
+    border: 1px solid #e6397f;
+    color: #e6397f;
+ 
+}
+.tutor-img{
+   padding-bottom: 2rem;
+   /* padding: 0rem 12rem 3rem 11rem; */
+}
+.tutor-img img{
+    height: 380px;
+    width: 340px;
+
+}

@@ -1,0 +1,13 @@
+.why-header h3{
+color: #000080;
+font-weight: 600;
+}
+.why-details h4{
+    color: #000080;
+}
+.why-details p{
+    color:rgb(131, 125, 125);
+}
+.why-details img{
+    height: 100px;
+}
